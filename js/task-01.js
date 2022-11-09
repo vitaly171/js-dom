@@ -7,3 +7,9 @@ refItems.forEach(elem =>
     `Category ${elem.firstElementChild.textContent} has ${elem.lastElementChild.children.length} nested elements`,
   ),
 );
+
+const returnLink = document.querySelector('a');
+returnLink.classList.add('return');
+
+const p = document.querySelector('p');
+p.classList.add('p');

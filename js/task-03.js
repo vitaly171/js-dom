@@ -20,9 +20,24 @@ const galleryEl = document.querySelector('#gallery');
 
 const markup = images
   .map(el => {
-    console.log(el.alt);
-    return `<li> <img src=${el.url} alt= ${el.alt}></li>`;
+    return `<li> <img src=${el.url} alt= '${el.alt}'></li>`;
   })
   .join('');
 
 galleryEl.insertAdjacentHTML('afterbegin', markup);
+
+galleryEl.classList.add('gallery');
+
+const listRef = document.querySelectorAll('li').forEach(el => {
+  return el.classList.add('list__task3');
+});
+
+const imgRef = document.querySelectorAll('img').forEach(el => {
+  return el.classList.add('img__task3');
+});
+
+const returnLink = document.querySelector('a');
+returnLink.classList.add('return');
+
+const p = document.querySelector('p');
+p.classList.add('p');

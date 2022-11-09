@@ -3,6 +3,7 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
   line-height: 1.5;
   color: #242222;
+  padding: 20px;
 }
 
 .list {
@@ -32,6 +33,62 @@ body {
 }
 
 .list__task3 {
-  width: 100px;
-  height: 100px;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.img__task3 {
+  width: 300px;
+  height: 200px;
+  margin: 0;
+  border: 4mm ridge #3e568e;
+  border-radius: 15%;
+  cursor: pointer;
+}
+.list__task2 {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.contaentEl {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 7%;
+}
+.gallery {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.return {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7a7d93;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.return:hover {
+  background-color: #1f5c69;
+}
+
+.return:active {
+  background-color: #3e568e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.p {
+  display: flex;
+  padding: 0 0 20px 0;
 }
