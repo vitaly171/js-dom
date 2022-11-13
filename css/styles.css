@@ -66,8 +66,8 @@ body {
 
 .return {
   display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
+  padding: 10px 17px;
+  font-size: 15px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -91,4 +91,79 @@ body {
 .p {
   display: flex;
   padding: 0 0 20px 0;
+}
+
+.btnDec {
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7a7d93;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+.btnDec:hover {
+  background-color: #ab1d1d;
+}
+
+.btnDec:active {
+  background-color: #3e568e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btnInc {
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7a7d93;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.btnInc:hover {
+  background-color: #1da33e;
+}
+
+.btnInc:active {
+  background-color: #3e568e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btnReset {
+  display: inline-block;
+  margin: 15px;
+
+  padding: 7px 15px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7a7d93;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.btnReset:hover {
+  background-color: #1d57a3;
+}
+
+.btnReset:active {
+  background-color: #3e568e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
