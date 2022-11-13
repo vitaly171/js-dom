@@ -103,7 +103,7 @@ body {
   outline: none;
   color: #fff;
   background-color: #7a7d93;
-  border: none;
+  /* border: none; */
   border-radius: 15px;
   box-shadow: 0 5px #999;
 }
@@ -126,7 +126,7 @@ body {
   outline: none;
   color: #fff;
   background-color: #7a7d93;
-  border: none;
+  /* border: none; */
   border-radius: 15px;
   box-shadow: 0 5px #999;
 }
@@ -153,7 +153,7 @@ body {
   outline: none;
   color: #fff;
   background-color: #7a7d93;
-  border: none;
+  /* border: none; */
   border-radius: 15px;
   box-shadow: 0 5px #999;
 }
