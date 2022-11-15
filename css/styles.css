@@ -5,10 +5,16 @@ body {
   color: #242222;
   padding: 20px;
 }
-
+.main-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  cursor: pointer;
+}
 .list {
   display: flex;
   justify-content: space-evenly;
+  list-style: none;
 }
 
 .item {
@@ -66,7 +72,7 @@ body {
 
 .return {
   display: inline-block;
-  padding: 10px 17px;
+  padding: 6px 12px;
   font-size: 15px;
   cursor: pointer;
   text-align: center;
@@ -178,4 +184,52 @@ body {
 
 .validation-input.invalid {
   border-color: #f44336;
+}
+
+.btn_create_task8 {
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7a7d93;
+  /* border: none; */
+  border-radius: 5px;
+  box-shadow: 0 5px #999;
+}
+.btn_create_task8:hover {
+  background-color: #329c61;
+}
+
+.btn_create_task8:active {
+  background-color: #3e568e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn_remove_task8 {
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7a7d93;
+  /* border: none; */
+  border-radius: 5px;
+  box-shadow: 0 5px #999;
+}
+.btn_remove_task8:hover {
+  background-color: #162231;
+}
+
+.btn_remove_task8:active {
+  background-color: #3e568e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
